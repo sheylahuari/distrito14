@@ -1,0 +1,93 @@
+ /* --- Estilos generales --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4fbf6; /* verde muy claro */
+    margin: 0;
+    padding: 0;
+    color: #2e2e2e;
+}
+
+header {
+    background-color: #3b7d57; /* verde valle */
+    color: #fff;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 6px solid #2a6042; /* verde oscuro */
+}
+
+h1 {
+    font-size: 2.6em;
+    margin: 0;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #d4f8d5;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 40px;
+}
+
+/* --- Tarjetas de contenido --- */
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 25px;
+    line-height: 1.7;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* --- Colores por sección --- */
+.historia {
+    background-color: #e0f2f1; /* verde agua */
+    border-left: 8px solid #009688; /* turquesa profundo */
+}
+
+.platos {
+    background-color: #fff3e0; /* naranja suave */
+    border-left: 8px solid #fb8c00; /* naranja intenso */
+}
+
+.bailes {
+    background-color: #e3f2fd; /* azul cielo */
+    border-left: 8px solid #1976d2; /* azul brillante */
+}
+
+.personajes {
+    background-color: #f3e5f5; /* lavanda pastel */
+    border-left: 8px solid #8e24aa; /* púrpura artístico */
+}
+
+/* --- Imagen --- */
+.imagen {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.imagen img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    border: 5px solid #a5d6a7; /* verde claro */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    background-color: #2a6042;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9em;
+    border-top: 5px solid #3b7d57;
+}
